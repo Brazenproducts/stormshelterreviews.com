@@ -22,6 +22,16 @@ nav{position:sticky;top:0;z-index:20;background:rgba(4,7,13,.88);backdrop-filter
 .footer-band{max-width:1160px;margin:30px auto 0;padding:0 20px 10px}.network{background:linear-gradient(135deg,rgba(255,255,255,.08),rgba(255,255,255,.02));border:1px solid var(--line);border-radius:20px;padding:22px}.network p{color:#cfd7e2;margin-bottom:14px}.network-links{display:flex;flex-wrap:wrap;gap:10px}.network-links a{display:inline-flex;padding:8px 12px;border-radius:999px;border:1px solid rgba(255,255,255,.1);background:rgba(0,0,0,.16);color:#e6edf5;font-size:.88rem}.network-links a:hover{text-decoration:none;background:rgba(255,255,255,.1)}
 footer{max-width:1160px;margin:22px auto 0;padding:0 20px 40px;color:#9fb0c3;font-size:.83rem}.disc{padding:16px 0;border-top:1px solid rgba(255,255,255,.08)}
 .hero-image{max-width:1160px;margin:24px auto 0;padding:0 20px}.hero-image img{display:block;width:100%;height:auto;max-height:420px;object-fit:cover;border-radius:18px;border:1px solid var(--line);box-shadow:0 20px 50px rgba(0,0,0,.35)}@media(max-width:860px){.hero-inner{grid-template-columns:1fr}h1{font-size:2.4rem}.nav-links{display:none}}
+
+/* ===== EMAIL CAPTURE ===== */
+.email-capture { background: #111827; border-top: 2px solid #f0a500; border-bottom: 2px solid #f0a500; padding: 48px 24px; text-align: center; margin: 40px 0; }
+.email-capture h2 { color: #f0a500; font-size: 1.6em; margin-bottom: 12px; }
+.email-capture p { color: #9ca3af; margin-bottom: 24px; max-width: 500px; margin-left: auto; margin-right: auto; }
+.capture-form { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; max-width: 480px; margin: 0 auto; }
+.capture-form input[type="email"] { flex: 1; min-width: 220px; padding: 12px 16px; border-radius: 6px; border: 1px solid #374151; background: #1f2937; color: #e0e0e0; font-size: 1em; }
+.capture-form button { background: #f0a500; color: #000; font-weight: 700; padding: 12px 24px; border: none; border-radius: 6px; cursor: pointer; font-size: 1em; white-space: nowrap; }
+.capture-form button:hover { background: #e09400; }
+/* ========================= */
 </style>
 </head>
 <body>
@@ -33,6 +43,23 @@ footer{max-width:1160px;margin:22px auto 0;padding:0 20px 40px;color:#9fb0c3;fon
 <section class="section"><h2 id="funding">Funding Pathways</h2><div class="funding"><div class="fund"><h3>HMGP</h3><p>Post-disaster hazard mitigation funding routed through the state. Often the first public funding track buyers ask vendors about after a major storm.</p></div><div class="fund"><h3>BRIC / PDM</h3><p>Competitive pre-disaster resilience funding. Strong for jurisdictions trying to install public protection before the next season, not after the damage is done.</p></div><div class="fund"><h3>CDBG</h3><p>HUD-linked funding streams can matter when shelter or housing projects overlap with community development and vulnerable-population priorities.</p></div><div class="fund"><h3>Local Capital + State Grants</h3><p>Many municipal deals blend local appropriations, bond dollars, and resilience grants. Vendors that speak this language usually move faster.</p></div></div></section>
 <section class="section"><div class="band" id="criteria"><h2>What We Watch Closely</h2><ul><li>Review sites should stay factual and avoid invented performance claims.</li><li>Procurement teams want comparison structure: lead time, compliance docs, capacity, install model, warranty/service.</li><li>A clean brand comparison site can rank because almost nobody has built one well.</li><li>Procurement teams should request stamped engineering, maintenance expectations, site-prep requirements, and realistic install sequencing before shortlisting vendors.</li></ul></div></section>
 <div class="footer-band"><div class="network"><h2>Emergency Shelter Network</h2><p>These sites track emergency shelters, safe rooms, modular shelter systems, and disaster housing from slightly different procurement angles.</p><div class="network-links"><a href="https://bestemergencyshelters.com">bestemergencyshelters</a><a href="https://bestsaferooms.com">bestsaferooms</a><a href="https://besthurricaneshelter.com">besthurricaneshelter</a><a href="https://stormshelterreviews.com">stormshelterreviews</a><a href="https://emergencyhousingreviews.com">emergencyhousingreviews</a><a href="https://bestdisasterhousing.com">bestdisasterhousing</a><a href="https://bestcommunityshelters.com">bestcommunityshelters</a><a href="https://bestmodularshelters.com">bestmodularshelters</a></div></div></div>
-<footer><div class="disc">Disclosure: This site publishes research and comparison content for public buyers, emergency managers, and facility teams. Always verify engineering, code compliance, and grant eligibility directly with manufacturers and licensed professionals before purchase.</div></footer>
+<footer><div class="disc">Disclosure: This site publishes research and comparison content for public buyers, emergency managers, and facility teams. Always verify engineering, code compliance, and grant eligibility directly with manufacturers and licensed professionals before purchase.</div>
+<!-- EMAIL CAPTURE -->
+<section class="email-capture">
+  <div class="container">
+    <h2>📬 Get Our Top Picks Delivered</h2>
+    <p>Join thousands of smart shoppers. We'll email our best finds, deals, and buying guides — no spam, ever.</p>
+    <form class="capture-form" action="https://api.web3forms.com/submit" method="POST">
+      <input type="hidden" name="access_key" value="2a6ef7e0-b23f-4b0b-a2e4-5ca5b6a3e9d7">
+      <input type="hidden" name="subject" value="New Subscriber — stormshelterreviews.com">
+      <input type="hidden" name="redirect" value="https://stormshelterreviews.com/thanks.html">
+      <input type="email" name="email" placeholder="Enter your email address" required>
+      <button type="submit">Get Top Picks →</button>
+    </form>
+  </div>
+</section>
+<!-- END EMAIL CAPTURE -->
+
+</footer>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Storm Shelter Reviews 2026","url":"https://stormshelterreviews.com/","description":"Storm shelter reviews and comparisons for municipalities, schools, employers, and emergency managers."}</script>
 </body></html>
